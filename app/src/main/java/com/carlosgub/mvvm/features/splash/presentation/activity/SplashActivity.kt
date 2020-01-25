@@ -32,9 +32,7 @@ class SplashActivity : BaseActivity() {
 
                 }
                 is SplashVS.AddAlbum ->{
-                    Log.d("PINGA",it.listAlbum.joinToString("\n"){"${it.userId}---${it.id}"})
-                    Log.d("TAMAÑO DE LA PINGA",it.listAlbum.size.toString())
-                    Log.d("EDU ES CABRITO",true.toString())
+                    Log.d("Log",it.listAlbum.joinToString("\n"){"${it.userId}---${it.id}"})
                 }
                 is SplashVS.Loading ->{
 
